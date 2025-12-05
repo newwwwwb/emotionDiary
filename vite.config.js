@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig(({mode}) => ({
-  base: mode === "production" ? "/emotiondiary/" : "/",
+  base: mode === "production" ? "/emotionDiary/" : "/",
   build: {
     outDir: "docs",
   },
